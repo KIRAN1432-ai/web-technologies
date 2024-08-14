@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <title>Deactivate Your Instagram Account</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            height:100vh;;
+        }
+        button{
+            background-color: rgb(71, 135, 212);
+            color: white;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Deactivate Your Instagram Account</h1>
+        <form action="14(a).html" method="get">
+            <fieldset style="width: max-content; height:fit-content;">
+                <div>
+                    <label for="username">Username:</label>              
+                    <input type="text" id="username" name="username">
+                </div><br>
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password">
+                </div><br>
+                <div>
+                    <label for="reason">Reason for Deactivation</label>
+                    <select id="reason" name="reason" required>
+                        <option value="">Select a reason</option>
+                        <option value="Privacy concerns">Privacy concerns</option>
+                        <option value="Too many ads">Too many ads</option>
+                        <option value="Account security">Account security</option>
+                        <option value="Other">Other</option>
+                     </select>
+                </div><br>
+                <button type="submit">Deactivate Account</button>
+            </fieldset>
+        </form><br>
+        <div>
+            Please ensure you have entered your correct username and password.
+            Deactivation is permanent and cannot be undone.
+        </div>
+    </div>
+</body>
+</html>

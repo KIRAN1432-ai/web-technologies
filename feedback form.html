@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Feedback Form</title>
+    <style>
+        body {
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 200;  
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-bottom: 5px;
+            color: #555;
+        }
+        input[type="text"],
+        input[type="email"],
+        select,
+        textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            width: 100%;
+        }
+        textarea {
+            resize: vertical;
+        }
+        button {
+            background-color: #75188a;
+            color: #fff;
+            padding: 10px;
+            border: #333;
+            border-radius: 15px;
+            font-size: 16px;
+            cursor: pointer; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Feedback Form</h1>
+        <form action="13(a).html" target="_self" method="get">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="course">Course Name</label>
+            <input type="text" id="course" name="course" required>
+            <label for="rating">Rating</label>
+            <select id="rating" name="rating" required>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+            </select>
+            <label for="comments">Comments</label>
+            <textarea id="comments" name="comments" rows="4" required></textarea>
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </div>
+</body>
+</html>
+
+

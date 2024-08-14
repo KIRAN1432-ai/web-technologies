@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>job request form</title>
+    <style>
+        h1{
+            text-align:center;
+            background-color: blue;
+            color:black;
+        }
+        button{
+            background-color: blue;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Request a job</h1>
+    <form action="">
+        <fieldset>
+        <div>
+            <label for="yname">Your name:</label>
+            <input type="text" name="yname" id="yname">
+        </div><br>
+        <div>
+            <label for="cname">company:</label>
+            <input type="text" name="cname" id="cname">
+        </div><br>
+        <div>
+            <label for="Pnum">Mobile number:</label>
+            <input type="text" name="pnum" id="pnum">
+        </div><br>
+        <div>
+            <label for="adsress">Address:</label><br><br>
+            <textarea id="address" name="address" rows="4"></textarea>
+        </div>  
+        <div><br>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email">
+        </div><br>
+        <div>
+            <label for="reference">Reference no:</label>
+            <input type="text" name="reference" id="reference">
+        </div><br>
+        <div>
+            <label for="document">Related document:</label>
+            <input type="file" name="document" id="document">
+        </div><br>
+        <div>
+            <label for="jobdetails">Job Details:</label>
+            <input type="text" name="jobdetails" id="jobdetails">
+        </div>
+        <div><br>
+            <button class="Send request" type="submit">Send request</button>
+        </div>
+    </fieldset>
+    </form>
+</body>
+</html>
